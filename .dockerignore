@@ -1,0 +1,79 @@
+## ==================
+## Version Control
+## ==================
+.git/
+.gitignore
+.gitattributes
+.github/
+
+## ==================
+## .NET Build Artifacts & Caches
+## ==================
+**/[Bb]in/
+**/[Oo]bj/
+**/[Ll]og/
+**/[Ll]ogs/
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+**/[Tt]est[Rr]esult*/
+**/artifacts/
+**/publish/
+**/Publish/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+## ==================
+## JetBrains Rider & IDE Files
+## ==================
+.idea/
+*.sln.iml
+*.DotSettings.user
+*.user
+*.suo
+*.userosscache
+
+## ==================
+## Docker & Compose Files
+## ==================
+Dockerfile*
+docker-compose*
+.dockerignore
+
+## ==================
+## Secrets, Local Configs & Databases
+## ==================
+.env
+.env.*
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/secrets.json
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+## ==================
+## Documentation & Misc
+## ==================
+README.md
+LICENSE
+*.md
+docs/
+
+## ==================
+## Linux & Editor Temp Files
+## ==================
+*~
+*.swp
+*.swo
+.directory
+.Trash-*
+.fuse_hidden*
+.nfs*
+nohup.out
+.DS_Store
